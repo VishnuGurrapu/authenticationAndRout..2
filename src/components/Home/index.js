@@ -1,8 +1,8 @@
-import Header from '../Header'
+import {Redirect} from 'react-router-dom'
+
 import './index.css'
 import Cookies from 'js-cookie'
-
-import {Redirect} from 'react-router-dom'
+import Header from '../Header'
 
 const Home = () => {
   const jwtToken = Cookies.get('jwt_token')
